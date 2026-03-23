@@ -521,7 +521,7 @@ export default function ProAnimatedEngagementPage({ onImageLoad, introFinished }
                               d="M9 12h6m-6 4h6m2 4H7a2 2 0 01-2-2V6a2 2 0 012-2h7l5 5v11a2 2 0 01-2 2z"
                             />
                           </svg>
-                          <span>وقت الاستقبال ٤ مساء و وقت الزفة ٥ مساء</span>
+                          <span>برجاء الحضور من 3:30 مساء</span>
                         </span>
                       </p>
                     </div>
