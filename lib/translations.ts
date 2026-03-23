@@ -60,7 +60,16 @@ type TranslationKey =
   | 'sharePhotosDescription'
   | 'uploadButton'
   | 'scanQRCode'
-  | 'orUploadDirectly';
+  | 'orUploadDirectly'
+  | 'timelineTitle'
+  | 'timelineWelcomeTime'
+  | 'timelineWelcomeDesc'
+  | 'timelineDinnerTime'
+  | 'timelineDinnerDesc'
+  | 'timelineSecondPartTime'
+  | 'timelineSecondPartDesc'
+  | 'timelinePhotosTime'
+  | 'timelinePhotosDesc';
 
 type Translations = {
   [key in TranslationKey]: {
@@ -307,8 +316,44 @@ export const translations: Translations = {
     ar: 'امسح الرمز لرفع صورك',
   },
   orUploadDirectly: {
-    en: 'Or click below to upload your photos directly',
-    ar: 'أو اضغط أدناه لرفع صورك مباشرة',
+    en: 'Or upload directly',
+    ar: 'أو ارفع الصور مباشرة',
+  },
+  timelineTitle: {
+    en: 'Timeline',
+    ar: 'الجدول الزمني',
+  },
+  timelineWelcomeTime: {
+    en: '4:00 PM - 5:30 PM',
+    ar: '٤:٠٠ م - ٥:٣٠ م',
+  },
+  timelineWelcomeDesc: {
+    en: 'WELCOME & START',
+    ar: 'الاستقبال والبداية',
+  },
+  timelineDinnerTime: {
+    en: '5:30 PM - 6:00 PM',
+    ar: '٥:٣٠ م - ٦:٠٠ م',
+  },
+  timelineDinnerDesc: {
+    en: 'DINNER TIME',
+    ar: 'وقت العشاء',
+  },
+  timelineSecondPartTime: {
+    en: '6:00 PM - 6:45 PM',
+    ar: '٦:٠٠ م - ٦:٤٥ م',
+  },
+  timelineSecondPartDesc: {
+    en: 'THE SECOND PART OF THE WEDDING',
+    ar: 'الجزء الثاني من الزفاف',
+  },
+  timelinePhotosTime: {
+    en: '6:45 PM - 7:00 PM',
+    ar: '٦:٤٥ م - ٧:٠٠ م',
+  },
+  timelinePhotosDesc: {
+    en: 'PHOTOS WITH FAMILY & FRIENDS',
+    ar: 'الصور مع العائلة والأصدقاء',
   },
 };
 
