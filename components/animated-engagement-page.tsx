@@ -239,7 +239,7 @@ export default function AnimatedEngagementPage() {
                     </motion.div>
                     <div className="text-left">
                       <p className="text-sm text-muted-foreground">Date</p>
-                      <p className="text-lg font-semibold text-foreground">April 25, 2026</p>
+                      <p className="text-lg font-semibold text-foreground">April 24, 2026</p>
                     </div>
                   </div>
                 </motion.div>
@@ -355,7 +355,7 @@ export default function AnimatedEngagementPage() {
             variants={scaleIn}
             className="relative"
           >
-            <CountdownTimer targetDate={new Date("2026-04-25T16:00:00")} />
+            <CountdownTimer targetDate={new Date("2026-04-24T18:00:00")} />
           </motion.div>
         </motion.div>
       </section>
@@ -453,7 +453,7 @@ export default function AnimatedEngagementPage() {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                               </svg>
                             </motion.div>
-                            <span className="text-xl font-medium text-foreground">April 25, 2026</span>
+                            <span className="text-xl font-medium text-foreground">April 24, 2026</span>
                           </div>
                           <div className="hidden md:block w-px h-8 bg-accent/20" />
                           <div className="flex items-center gap-4 text-lg">
@@ -465,7 +465,7 @@ export default function AnimatedEngagementPage() {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                               </svg>
                             </motion.div>
-                            <span className="text-xl font-medium text-foreground">4:00 PM</span>
+                            <span className="text-xl font-medium text-foreground">6:00 PM</span>
                           </div>
                         </motion.div>
 
@@ -484,7 +484,7 @@ export default function AnimatedEngagementPage() {
                                 d="M9 12h6m-6 4h6m2 4H7a2 2 0 01-2-2V6a2 2 0 012-2h7l5 5v11a2 2 0 01-2 2z"
                               />
                             </svg>
-                            <span>برجاء الحضور من 3:30 مساء</span>
+                            <span>برجاء الحضور من 5:30 مساء</span>
                           </span>
                         </p>
                       </div>

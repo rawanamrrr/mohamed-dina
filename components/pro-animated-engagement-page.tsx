@@ -207,7 +207,7 @@ export default function ProAnimatedEngagementPage({ onImageLoad, introFinished }
   const pathY1 = useTransform(scrollYProgress, [0, 0.5], [0, 20])
   const pathY2 = useTransform(scrollYProgress, [0, 0.5], [0, 40])
 
-  const eventDate = new Date("2026-04-25T16:00:00");
+  const eventDate = new Date("2026-04-24T18:00:00");
   const formattedDate = formatDate(eventDate, language);
   const formattedTime = formatTime(eventDate, language);
 
@@ -416,7 +416,7 @@ export default function ProAnimatedEngagementPage({ onImageLoad, introFinished }
           </div>
 
           <div>
-            <CountdownTimer targetDate={new Date("2026-04-25T16:00:00")} />
+            <CountdownTimer targetDate={new Date("2026-04-24T18:00:00")} />
           </div>
         </div>
       </section>
@@ -522,7 +522,7 @@ export default function ProAnimatedEngagementPage({ onImageLoad, introFinished }
                               d="M9 12h6m-6 4h6m2 4H7a2 2 0 01-2-2V6a2 2 0 012-2h7l5 5v11a2 2 0 01-2 2z"
                             />
                           </svg>
-                          <span>برجاء الحضور من 3:30 مساء</span>
+                          <span>برجاء الحضور من 5:30 مساء</span>
                         </span>
                       </p>
                     </div>
