@@ -100,8 +100,8 @@ export const translations: Translations = {
     ar: '٢٤ أبريل ٢٠٢٦',
   },
   time: {
-    en: '6:00 PM - 10:00 PM',
-    ar: '٦:٠٠ م - ١٠:٠٠ م',
+    en: '7:00 PM - 11:00 PM',
+    ar: '٧:٠٠ م - ١١:٠٠ م',
   },
   location: {
     en: 'Mountain Rose Hotel, Tulip Hall',
@@ -324,32 +324,32 @@ export const translations: Translations = {
     ar: 'الجدول الزمني',
   },
   timelineWelcomeTime: {
-    en: '6:00 PM - 7:30 PM',
-    ar: '٦:٠٠ م - ٧:٣٠ م',
+    en: '7:00 PM - 8:30 PM',
+    ar: '٧:٠٠ م - ٨:٣٠ م',
   },
   timelineWelcomeDesc: {
     en: 'WELCOME & START',
     ar: 'الاستقبال والبداية',
   },
   timelineDinnerTime: {
-    en: '8:00 PM - 9:00 PM',
-    ar: '٨:٠٠ م - ٩:٠٠ م',
+    en: '9:00 PM - 10:00 PM',
+    ar: '٩:٠٠ م - ١٠:٠٠ م',
   },
   timelineDinnerDesc: {
     en: 'DINNER TIME',
     ar: 'وقت العشاء',
   },
   timelineSecondPartTime: {
-    en: '9:00 PM - 9:45 PM',
-    ar: '٩:٠٠ م - ٩:٤٥ م',
+    en: '10:00 PM - 10:45 PM',
+    ar: '١٠:٠٠ م - ١٠:٤٥ م',
   },
   timelineSecondPartDesc: {
     en: 'THE SECOND PART OF THE WEDDING',
     ar: 'الجزء الثاني من الزفاف',
   },
   timelinePhotosTime: {
-    en: '9:45 PM - 10:00 PM',
-    ar: '٩:٤٥ م - ١٠:٠٠ م',
+    en: '10:45 PM - 11:00 PM',
+    ar: '١٠:٤٥ م - ١١:٠٠ م',
   },
   timelinePhotosDesc: {
     en: 'PHOTOS WITH FAMILY & FRIENDS',

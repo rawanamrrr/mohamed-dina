@@ -62,7 +62,7 @@ export default function EngagementPage() {
             </div>
           </div>
 
-          <CountdownTimer targetDate={new Date("2026-04-24T18:00:00")} />
+          <CountdownTimer targetDate={new Date("2026-04-24T19:00:00")} />
         </div>
       </section>
 
@@ -113,7 +113,7 @@ export default function EngagementPage() {
                         d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    <span className="text-lg text-foreground">6:00 PM</span>
+                    <span className="text-lg text-foreground">7:00 PM</span>
                   </div>
                 </div>
 
@@ -132,7 +132,7 @@ export default function EngagementPage() {
                         d="M9 12h6m-6 4h6m2 4H7a2 2 0 01-2-2V6a2 2 0 012-2h7l5 5v11a2 2 0 01-2 2z"
                       />
                     </svg>
-                     <span>برجاء الحضور من 5:30 مساء</span>
+                     <span>برجاء الحضور من 6:30 مساء</span>
                   </span>
                 </p>
               </div>

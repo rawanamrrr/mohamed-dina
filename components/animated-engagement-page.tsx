@@ -355,7 +355,7 @@ export default function AnimatedEngagementPage() {
             variants={scaleIn}
             className="relative"
           >
-            <CountdownTimer targetDate={new Date("2026-04-24T18:00:00")} />
+            <CountdownTimer targetDate={new Date("2026-04-24T19:00:00")} />
           </motion.div>
         </motion.div>
       </section>
@@ -465,7 +465,7 @@ export default function AnimatedEngagementPage() {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                               </svg>
                             </motion.div>
-                            <span className="text-xl font-medium text-foreground">6:00 PM</span>
+                            <span className="text-xl font-medium text-foreground">7:00 PM</span>
                           </div>
                         </motion.div>
 
@@ -484,7 +484,7 @@ export default function AnimatedEngagementPage() {
                                 d="M9 12h6m-6 4h6m2 4H7a2 2 0 01-2-2V6a2 2 0 012-2h7l5 5v11a2 2 0 01-2 2z"
                               />
                             </svg>
-                            <span>برجاء الحضور من 5:30 مساء</span>
+                            <span>برجاء الحضور من 6:30 مساء</span>
                           </span>
                         </p>
                       </div>

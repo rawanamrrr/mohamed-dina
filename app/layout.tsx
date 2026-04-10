@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description: "Join us in celebrating Mohamed & Dina's wedding",
     images: [
       {
-        url: "https://mohamed-dina.digitivaa.com/invitation-design.jpg",
+        url: "https://mohamed-dina.digitivaa.com/invitation-design.jpg?v=2",
         width: 768,
         height: 1365,
         alt: "Mohamed & Dina Wedding Invitation",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mohamed & Dina - Wedding Celebration",
     description: "Join us in celebrating Mohamed & Dina's wedding",
-    images: ["https://mohamed-dina.digitivaa.com/invitation-design.jpg"],
+    images: ["https://mohamed-dina.digitivaa.com/invitation-design.jpg?v=2"],
   },
   icons: {
     icon: "/invitation-design.jpg",
@@ -64,7 +64,7 @@ export default function RootLayout({
         <meta property="og:description" content="Join us in celebrating Mohamed & Dina's wedding" />
         <meta
           property="og:image"
-          content="https://mohamed-dina.digitivaa.com/invitation-design.jpg"
+          content="https://mohamed-dina.digitivaa.com/invitation-design.jpg?v=2"
         />
 
         <meta property="og:image:width" content="768" />
@@ -76,7 +76,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Mohamed & Dina - Wedding Celebration" />
         <meta name="twitter:description" content="Join us in celebrating Mohamed & Dina's wedding" />
-        <meta name="twitter:image" content="https://mohamed-dina.digitivaa.com/invitation-design.jpg" />
+        <meta name="twitter:image" content="https://mohamed-dina.digitivaa.com/invitation-design.jpg?v=2" />
 
         {/* Preload PNG with high priority to eliminate lag on Netlify */}
         <link
